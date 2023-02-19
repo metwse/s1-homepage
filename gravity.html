@@ -1,0 +1,47 @@
+<meta charset=UTF-8>
+<meta name="viewport" content="width=device-width">
+
+<script src=/js/perlin-noise.js></script>
+<script src=/js/gravity.js></script>
+
+<style>
+	* { box-sizing: border-box; color: white; font-family: monospace }
+	body { display: grid; margin: 0; height: 100vh; background: #111; place-items: center }
+	canvas { max-width: calc(100vw - 2em); max-height: calc(100vh - 2em); background: black }
+	
+	input[type=checkbox]:hover { cursor: pointer }
+	input[type=number], input[type=text] { background: #5e00c5; border: none; border-radius: .2em; padding: .2em}
+
+	.controls { position: fixed; bottom: 0; overflow: hidden}
+	.controls:hover main, .controls.active main  { transform: none }
+
+	main { display: flex; padding: 1em; background-color: #5e00c5; border-radius: 1em 1em 0 0; flex-direction: column; gap: .5em; transform: translateY(calc(100% - 2.75em)); transition: .3s }
+	main > span { font-size: 1.2em }
+	main > span > span { float: right; font-size: .8em }
+	main > div { padding: .5em; background: #6e2fb3; border-radius: .5em }
+
+	main input { flex-grow: 1 }
+
+	main > div { display: flex; gap: 1em }
+	main > div > div:last-of-type { flex-grow: 1 }
+	main > div > div > div { display: flex; align-items: center; gap: .1em }
+	main > div span { font-size: 1.1em }
+</style>
+
+<canvas width=800 height=800></canvas>
+<div class=controls>
+	<main>
+		<span>3B test<span class=info>kontroller için tıkla</span></span>
+		<div class=rotations>
+			<div>
+				<span>kamera açısı</span>
+				<div><input type=checkbox class=auto checked /> otomatik</div>
+			</div>
+			<div>
+				<div>x: <input type=range class=x disabled max=628 /></div>
+				<div>y: <input type=range class=y disabled max=628 /></div>
+				<div>z: <input type=range class=z disabled max=628 /></div>
+			</div>
+		</div>
+	</main>
+</div>

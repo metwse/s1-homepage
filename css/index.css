@@ -1,0 +1,12 @@
+* { color: inherit; font-size: interit }
+
+body { background: #111; color: white; font-family: monospace }
+h1 { font-weight: normal }
+
+a { color: aqua }
+a:visited { color: red }
+
+section { margin: 1em 1em 0 1em; padding: .5em 1em; border: 1px solid gray; border-radius: .5em }
+section:first-of-type { margin-top: 2em }
+section h2 { font-size: 1.25em; margin: 0; font-weight: normal }
+section ul { margin: .25em 0 }

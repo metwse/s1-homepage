@@ -1,0 +1,31 @@
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0">
+	<meta name="author" content="metw">
+	<script src="/js/index.js"></script>
+	<link rel="stylesheet" href="/css/index.css" />
+</head>
+<body>
+	<h1>Çok Havalı <b>metw</b> Sunucusu</h1>
+	Tüm dosyaları görmek için <a href="/?">tıklayınız</a>.
+	
+	<section>
+		<h2>Öne çıkanlar</h2>
+		<ul>
+			<li><a href="https://icraat.metw.cc">İcraat</a></li>
+			<li><a href="/gravity">Kütle Çekimi</a></li>
+			<li><a href="/3d-test">3B Test</a></li>
+			<li><a href="https://s2.metw.cc/">2. sunucu</a></li>
+		</ul>
+	</section>
+	
+	<section>
+		<h2>Bağlantılar</h2>
+		<ul>
+			<li><a href="https://dc.metw.cc">Şişe çevir</a></li>
+			<li><a href="https://zamankaybi.metw.cc">Zaman kaybet</a></li>
+			<li><a href="https://onemlibisey.metw.cc">OHA</a></li>
+		</ul>
+	</section>
+</body>
